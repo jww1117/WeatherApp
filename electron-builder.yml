@@ -41,7 +41,8 @@ appImage:
   artifactName: ${name}-${version}.${ext}
 npmRebuild: false
 publish:
-  provider: generic
-  url: https://example.com/auto-updates
+  provider: github
+  owner: jww1117
+  repo: WeatherApp
 electronDownload:
   mirror: https://npmmirror.com/mirrors/electron/
